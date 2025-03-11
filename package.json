@@ -1,0 +1,14 @@
+{
+  "name": "com.betterrealityvr.diagnostics",
+  "version": "1.0.0",
+  "displayName": "BetterReality Cognitive Testing Framework",
+  "description": "Loader and helper methods",
+  "unity": "2022.3",
+  "keywords": ["example", "package"],
+  "author": "BetterReality",
+  "licenseUrl": "https://github.com/levexis/BetterReality_Framework/blob/main/LICENSE.md",
+  "repositoryUrl": "https://github.com/levexis/BetterReality_Framework",
+  "dependencies": {
+    "com.unity.package-manager-ui": "1.0.0"
+  }
+}
