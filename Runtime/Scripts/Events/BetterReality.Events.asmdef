@@ -1,0 +1,22 @@
+{
+    "name": "BetterReality.Events",
+    "rootNamespace": "BetterReality.Events",
+    "references": [
+        "UnityEditor.UI"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

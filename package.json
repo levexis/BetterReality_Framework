@@ -1,8 +1,8 @@
 {
   "name": "com.betterrealityvr.framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "BetterReality Cognitive Testing Framework",
-  "description": "Framework for administering / collecting data from cognitive tasks",
+  "description": "SDK for administering / collecting data from cognitive tasks",
   "unity": "2022.3",
   "keywords": ["BetterReality", "Framework"],
   "author": "BetterReality",

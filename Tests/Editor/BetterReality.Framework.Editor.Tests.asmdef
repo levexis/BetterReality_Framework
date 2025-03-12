@@ -1,10 +1,10 @@
 {
     "name": "BetterFramework Editor Tests",
-    "rootNamespace": "BetterReality.Editor",
+    "rootNamespace": "BetterReality.Framework.Tests.Editor",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "BetterReality.DevTools"
+        "BetterReality.Framework"
     ],
     "includePlatforms": [
         "Editor"
