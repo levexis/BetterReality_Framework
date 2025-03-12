@@ -4,8 +4,7 @@ using UnityEngine.Events;
 
 namespace BetterReality.Events
 {
-    public class StartCalibration : UnityEvent<Vector3>
+    public class EndCalibration : UnityEvent<Vector3>
     {
-        
     }
 }

@@ -2,10 +2,9 @@
 using UnityEngine;
 using UnityEngine.XR.Management;
 
-namespace BetterReality.Events
+namespace BetterReality
 {
     
-}
 // this should hopefull prevent previews from getting stuck
 public class XRLoaderManager : MonoBehaviour
 {
@@ -52,4 +51,5 @@ public class XRLoaderManager : MonoBehaviour
             Debug.Log("XR Loader stopped completely.");
         }
     }
+}
 }

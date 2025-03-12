@@ -1,8 +1,8 @@
 ﻿using System;
-using BetterReality.Events;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using BetterReality.Events;
 
 namespace BetterReality.Framework
 {
@@ -18,7 +18,7 @@ namespace BetterReality.Framework
         
         [SerializeField]
         public TextMeshPro HUD;
-        private GameMan _gameMan;
+      //  private GameMan _gameMan;
         private bool _calibrating;
         [SerializeField] private float countDown = 5;
         private float remainingCountDown;
@@ -30,7 +30,7 @@ namespace BetterReality.Framework
         {
             setHeight.action.Enable(); 
             setHeight.action.performed += StartCalibration;
-            _gameMan = FindObjectOfType<GameMan>();
+ //           _gameMan = FindObjectOfType<GameMan>();
         }
         
         private void Start()
@@ -39,7 +39,7 @@ namespace BetterReality.Framework
             //_calibrating = false;
             // or we could just start with this!
            StartCalibration();
-           _gameMan.gameStartedEvent.AddListener( () => { _hasStarted = true; } );
+//           _gameMan.gameStartedEvent.AddListener( () => { _hasStarted = true; } );
         }
 
         private void StartCalibration()
@@ -50,10 +50,10 @@ namespace BetterReality.Framework
 
         private void StartCalibration (InputAction.CallbackContext context) 
         {
-            if (!_gameMan.Started)
-            {
+//            if (!_gameMan.Started)
+//            {
                 StartCalibration();
-            }
+//            }
         }
 
         private void Update()
@@ -78,13 +78,13 @@ namespace BetterReality.Framework
 
         public void CalibrateHeight()
         {
-            if (!_gameMan.Started)
-            {
+//            if (!_gameMan.Started)
+//            {
                 headHeight=headTransform.position.y;
                 handHeight=handTransform.position.y;
                 endCalibration.Invoke(Vector3.zero);
                 Debug.Log($"height calibration {floorHeight}->{handHeight}->{headHeight}");
-            }
+//            }
         }
     }
     

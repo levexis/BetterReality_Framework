@@ -2,7 +2,11 @@
     "name": "BetterReality.Framework",
     "rootNamespace": "BetterReality.Framework",
     "references": [
-        "UnityEditor.UI"
+        "UnityEditor.UI",
+        "Unity.TextMeshPro",
+        "UnityCommunity.UnitySingleton",
+        "Unity.XR.Management",
+        "Unity.InputSystem"
     ],
     "includePlatforms": [
         "Android",

@@ -27,8 +27,7 @@ namespace BetterReality.Framework
 
         // bind to tmpro instance for heads up display
         public TextMeshProUGUI hudTMPGui;
-
-        public EyeTracking EyeTracking;
+        
         
         public int Health
         {

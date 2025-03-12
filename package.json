@@ -9,6 +9,8 @@
   "licenseUrl": "https://github.com/levexis/BetterReality_Framework/blob/main/LICENSE.md",
   "repositoryUrl": "https://github.com/levexis/BetterReality_Framework",
   "dependencies": {
-    "com.unity.package-manager-ui": "1.0.0"
+    "com.unity.package-manager-ui": "1.0.0",
+    "com.unity.textmeshpro": "3.0.9",
+    "com.unity.inputsysem": "1.11.2"
   }
 }
