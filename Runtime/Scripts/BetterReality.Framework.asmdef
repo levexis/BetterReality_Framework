@@ -6,7 +6,8 @@
         "Unity.TextMeshPro",
         "UnityCommunity.UnitySingleton",
         "Unity.XR.Management",
-        "Unity.InputSystem"
+        "Unity.InputSystem",
+        "BetterReality.Framework.Events"
     ],
     "includePlatforms": [
         "Android",
