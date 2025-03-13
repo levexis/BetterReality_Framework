@@ -13,7 +13,7 @@ namespace BetterReality.Framework
 
         private void Start()
         {
-            Debug.Log("Main menu loaded for" + TestMan.Instance.SubjectName + ". Loading whackamole...");
+//            Debug.Log("Main menu loaded for" + TestMan.Instance.SubjectName + ". Loading whackamole...");
             SceneManager.LoadScene("Whackamole");
         }
     }
