@@ -24,7 +24,7 @@
     {
       "displayName": "Preloading Singletons",
       "description": "_preload bootstraps framework and game using singleton pattern",
-      "path": "Samples~/Preload/"
+      "path": "Samples~/Preload"
     }
   ]
 }
