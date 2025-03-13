@@ -1,8 +1,8 @@
 {
   "name": "com.betterrealityvr.framework",
-  "version": "1.0.2",
-  "displayName": "BetterReality Cognitive Testing Framework",
-  "description": "SDK for administering / collecting data from cognitive tasks",
+  "version": "1.0.3",
+  "displayName": "BetterReality SDK",
+  "description": "Cognitive Testing Framework for acognitive ability testing",
   "unity": "2022.3",
   "keywords": [
     "BetterReality",
@@ -14,7 +14,11 @@
   "dependencies": {
     "com.unity.package-manager-ui": "1.0.0",
     "com.unity.textmeshpro": "3.0.9",
-    "com.unity.inputsystem": "1.11.2"
+    "com.unity.inputsystem": "1.11.2",
+    "com.unity.xr.managment": "4.5.0",
+    "com.unity.gui": "1.0.0",
+    "com.unity.xr.oculus": "4.3.0",
+    "com.meta.xr.sdk.all": "72.0.0"
   },
   "Samples": [
     {
