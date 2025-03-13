@@ -10,3 +10,7 @@
 - Moved scenes to samples, needs to be installed explicitly.
 - Added remaining package dependencies
 - Note UnitySingleton must be installed manually
+### [1.0.3] - 2025-3-12
+### Dependencies and Preload
+- Added all depencies
+- Added Preload samples
