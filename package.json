@@ -20,7 +20,7 @@
     "com.unity.xr.oculus": "4.3.0",
     "com.meta.xr.sdk.all": "72.0.0"
   },
-  "Samples": [
+  "samples": [
     {
       "displayName": "Preloading Singletons",
       "description": "_preload bootstraps framework and game using singleton pattern",
