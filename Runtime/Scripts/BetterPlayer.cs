@@ -2,7 +2,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using BetterReality.Events;
+using BetterReality.Framework.Events;
 
 namespace BetterReality.Framework
 {
