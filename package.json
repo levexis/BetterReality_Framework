@@ -4,7 +4,10 @@
   "displayName": "BetterReality Cognitive Testing Framework",
   "description": "SDK for administering / collecting data from cognitive tasks",
   "unity": "2022.3",
-  "keywords": ["BetterReality", "Framework"],
+  "keywords": [
+    "BetterReality",
+    "Framework"
+  ],
   "author": "BetterReality",
   "licenseUrl": "https://github.com/levexis/BetterReality_Framework/blob/main/LICENSE.md",
   "repositoryUrl": "https://github.com/levexis/BetterReality_Framework",
@@ -12,5 +15,12 @@
     "com.unity.package-manager-ui": "1.0.0",
     "com.unity.textmeshpro": "3.0.9",
     "com.unity.inputsystem": "1.11.2"
-  }
+  },
+  "Samples": [
+    {
+      "displayName": "Preloading Singletons",
+      "description": "_preload bootstraps framework and game using singleton pattern",
+      "path": "~Samples/Preload/"
+    }
+  ]
 }
