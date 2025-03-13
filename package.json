@@ -25,11 +25,6 @@
       "displayName": "Preloading Singletons",
       "description": "_preload bootstraps framework and game using singleton pattern",
       "path": "Samples~/Preload"
-    },
-    {
-      "displayName": "HDRP Shaders",
-      "description": "why doesn't my one work",
-      "path": "Samples~/SamplesHDRP"
     }
   ]
 }

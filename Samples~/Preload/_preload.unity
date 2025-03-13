@@ -163,19 +163,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1594112597}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1a827b9d98ff8048a004404ebf4fafc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c1decedfd5b9804d9a52c7911d48e32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnparentOnAwake: 1
   <StartScene>k__BackingField: BetterDiagnostics
-  m_PlayerName: Joy
+  m_PlayerName: Dave
   testField: 
   testInt: 0
-  <SubjectName>k__BackingField: Jutta
+  <SubjectName>k__BackingField: Dave McRave
   _health: 0
-  _hudText: Jutta Joy
+  _hudText: _app Hud text
   DevMode: 0
   hudTMPGui: {fileID: 0}
-  EyeTracking: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
