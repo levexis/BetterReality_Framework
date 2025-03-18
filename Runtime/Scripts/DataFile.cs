@@ -11,10 +11,9 @@ namespace BetterReality.Framework
         public string FilePath { get; set; }
         public string Name { get; set; }
         public bool IsReadOnly { get; set; }
-
         public DataTable FileDataTable { get; set; }
         public string Rows { get; set; }
-
+        
 
         public abstract bool Load();
         public abstract bool Save();

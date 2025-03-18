@@ -1,6 +1,6 @@
 {
     "name": "BetterFramework Editor Tests",
-    "rootNamespace": "BetterReality.Framework.Tests.Editor",
+    "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",

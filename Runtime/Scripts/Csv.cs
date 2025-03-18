@@ -50,7 +50,7 @@ namespace BetterReality.Framework
 
             sb.Remove(sb.Length - 1, 1); // Remove the trailing comma
             return sb.ToString();
-        }
+        }  
 
         // Write data from DataTable to CSV file
         public override bool Save()
@@ -234,6 +234,24 @@ namespace BetterReality.Framework
             return newRow;
         }
 
+        protected  List<string> GetFieldNames<T>() where T : struct
+        {
+            var rowType = typeof(T);
+            var fieldNames = new List<string>();
+
+            // Get the fields of the specified struct type
+            FieldInfo[] fields = rowType.GetFields();
+
+            // Add the names of the fields to the list
+            foreach (FieldInfo field in fields)
+            {
+                fieldNames.Add(field.Name);
+            }
+
+            return fieldNames;
+        }
+
+        
         protected void CreateCsvFile()
         {
             // Get all properties of the object
