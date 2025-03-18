@@ -53,7 +53,7 @@ namespace BetterReality.Framework
  
         public BetterTask GetTask(int taskId)
         { 
-            DataRow row = FileDataTable.AsEnumerable().FirstOrDefault(row => row.Field<int>("Id") == taskId);
+            DataRow row = FileDataTable.AsEnumerable().FirstOrDefault(row => row.Field<string>("Id") == taskId.ToString());
             if (row == null)
             {
                 throw new Exception ($"Id:{taskId} not found in BetterTasks");

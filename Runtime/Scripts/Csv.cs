@@ -21,7 +21,10 @@ namespace BetterReality.Framework
 
         public Csv(string fileName) : base(fileName)
         {
-            FilePath += ".csv";
+            if (!FilePath.EndsWith(".csv", StringComparison.OrdinalIgnoreCase))
+            {
+                FilePath += ".csv";
+            }
         }
 
         protected string CsvLine(DataRow rowData)
@@ -108,7 +111,7 @@ namespace BetterReality.Framework
             }
             catch (Exception e)
             {
-                throw new FileLoadException("Invalid file format, is it open? Move too start new file: " + FilePath, e.Message);
+                throw new FileLoadException("Invalid file format, is it open? Move to start new file: " + FilePath, e.Message);
             }
         }
 
