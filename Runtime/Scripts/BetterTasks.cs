@@ -15,6 +15,8 @@ namespace BetterReality.Framework
         public struct BetterTask
         {
             public int id;
+            public string scene;
+            public string parameters;
             public string organisation;
             public string name;
             public string description;
@@ -22,6 +24,8 @@ namespace BetterReality.Framework
             public BetterTask (DataRow row)
             {
                 id = Convert.ToInt32(row["id"]);
+                scene = row["scene"].ToString();
+                parameters = row["parameters"].ToString();
                 organisation = row["organisation"].ToString();
                 name = row["name"].ToString();
                 description = row["description"].ToString();
